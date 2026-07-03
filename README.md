@@ -1,2 +1,2 @@
 视频教程
-<video src="https://www.bilibili.com/video/BV19GTt6WEHY/" width="600px" controls></video>
+[![点击观看演示视频](https://shields.io)](https://www.bilibili.com/video/BV19GTt6WEHY/)
