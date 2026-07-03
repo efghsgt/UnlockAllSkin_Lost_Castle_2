@@ -1,0 +1,776 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <BaseOutputPath>D:\Recreation\Platform\steam\steamapps\common\Lost Castle 2\BepInEx\plugins</BaseOutputPath>
+  </PropertyGroup>
+	<ItemGroup>
+		<Reference Include="D:\UnityIL2CPPnx\1\0Harmony.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\ACTk.Examples.Genuine.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\ACTk.Examples.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\ACTk.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AllIn1SpriteShaderAssembly.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AmazingAssets.TerrainToMesh.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\andywiecko.BurstTriangulator.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AsmResolver.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AsmResolver.DotNet.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AsmResolver.PE.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AsmResolver.PE.File.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Assembly-CSharp-firstpass.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Assembly-CSharp.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AssetRipper.CIL.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AssetRipper.Primitives.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AstarPathfindingProject.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\AwaitExtensions.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\BepInEx.Core.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\BepInEx.Preloader.Core.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\BepInEx.Unity.Common.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\BepInEx.Unity.IL2CPP.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\BestHTTP.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Boxophobic.TheVegetationEngine.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Boxophobic.Utils.Scripts.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Clipper2Lib.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\com.alelievr.NodeGraphProcessor.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\ConsolePro.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Cpp2IL.Core.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Disarm.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\DOTween.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\DOTweenModules.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Dracodec.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Drawing.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\endel.nativewebsocket.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Febucci.TextAnimator.Demo.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Febucci.TextAnimator.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Gee.External.Capstone.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Google.Protobuf.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\HBAO.Universal.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.AI.FSM.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Attribute.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Common.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.HunterMono.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Input.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Localization.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Logger.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Motion.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Motion.Utils.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.NodeGraph.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.ObjectPath.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Platform.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Platform.Example.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Resolution.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.UI.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Unity.Netcode.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Hunter.Utils.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Iced.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppInterop.Common.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppInterop.Generator.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppInterop.HarmonySupport.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppInterop.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppMono.Security.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2Cppmscorlib.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.Configuration.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.Core.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.Data.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.Drawing.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.Numerics.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.Runtime.CompilerServices.Unsafe.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.Runtime.Serialization.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.Xml.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Il2CppSystem.Xml.Linq.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\InControl.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\IngameDebugConsole.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\LC2.Core.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\LC2.JsonUtil.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\LibCpp2IL.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\MeshFusionPro.Example.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\MeshFusionPro.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Mono.Cecil.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Mono.Cecil.Mdb.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Mono.Cecil.Pdb.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Mono.Cecil.Rocks.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\MonoMod.Backports.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\MonoMod.ILHelpers.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\MonoMod.RuntimeDetour.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\MonoMod.Utils.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Netcode for GameObjects Community Extensions.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Newtonsoft.Json.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Numba.AwaitExtensions.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\OtherUtils.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\PackageTools.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Pathfinding.Ionic.Zip.Reduced.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Photon Realtime Transport for Netcode for GameObjects.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Photon3Unity3D.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\PhotonRealtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\PluginsExtend.URPExtend.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\SemanticVersioning.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Siccity.GLTFUtility.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Sirenix.Custom.Attributes.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Sirenix.OdinInspector.Attributes.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Sirenix.Serialization.AOTGenerated.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Sirenix.Serialization.Config.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Sirenix.Serialization.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Sirenix.Utilities.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\SmoothSync.Common.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\SmoothSync.Netcode.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\spine-csharp.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\spine-unity.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\StableNameDotNet.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\SteamNetworkingSockets Transport for Netcode for GameObjects.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Steamworks.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UIParticleSystem.Example.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UIParticleSystem.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UniTask.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\unity-websocket-sharp.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Burst.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Burst.Unsafe.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Collections.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Collections.LowLevel.ILSupport.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.InternalAPIEngineBridge.004.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Mathematics.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.MemoryProfiler.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.Adapters.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.Adapters.Ngo1.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.Adapters.Ngo1WithUtp2.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.Adapters.Utp2.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.Common.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.Initialization.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.MetricEvents.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.MetricTypes.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.NetStats.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.NetStatsReporting.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Multiplayer.Tools.NetworkSolutionInterface.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Netcode.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Networking.Transport.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Profiling.Core.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.RenderPipeline.Universal.ShaderLibrary.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.RenderPipelines.Core.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.RenderPipelines.Core.Runtime.Shared.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.RenderPipelines.GPUDriven.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.RenderPipelines.Universal.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Authentication.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Authentication.PlayerAccounts.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Components.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Configuration.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Device.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Environments.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Environments.Internal.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Internal.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Registration.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Scheduler.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Telemetry.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Core.Threading.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.QoS.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Relay.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Services.Wire.Internal.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.Sync.Relay.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.TextMeshPro.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.UnifiedRayTracing.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.UOS.Common.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.UOS.Encrypt.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.UOS.NetCodeTransport.Kcp2k.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\Unity.UOS.Transport.Kcp2k.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.AccessibilityModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.AdaptivePerformanceModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.AIModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.AndroidJNIModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.AnimationModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.AssetBundleModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.AudioModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.ClothModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.ClusterInputModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.ClusterRendererModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.ContentLoadModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.CoreModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.CrashReportingModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.DirectorModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.DSPGraphModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.GameCenterModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.GIModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.GraphicsStateCollectionSerializerModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.GridModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.HierarchyCoreModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.HierarchyModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.HotReloadModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.IdentifiersModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.ImageConversionModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.IMGUIModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.InputForUIModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.InputLegacyModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.InputModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.JSONSerializeModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.LocalizationModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.MarshallingModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.MultiplayerModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.ParticleSystemModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.PerformanceReportingModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.Physics2DModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.PhysicsBackendPhysXModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.PhysicsModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.PropertiesModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.RenderAs2DModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.ScreenCaptureModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.ShaderRuntimeModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.ShaderVariantAnalyticsModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.SharedInternalsModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.SpriteMaskModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.SpriteShapeModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.StreamingModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.SubstanceModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.SubsystemsModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.TerrainModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.TerrainPhysicsModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.TextCoreFontEngineModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.TextCoreTextEngineModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.TextRenderingModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.TilemapModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.TLSModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UI.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UIElementsModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UIModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UmbraModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityAnalyticsCommonModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityAnalyticsModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityConnectModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityConsentModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityCurlModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityWebRequestAssetBundleModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityWebRequestAudioModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityWebRequestModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityWebRequestTextureModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.UnityWebRequestWWWModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.VectorGraphicsModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.VehiclesModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.VFXModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.VideoModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.VirtualTexturingModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.VRModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.WindModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UnityEngine.XRModule.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\UPGEN.Lighting.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\VolumetricLightBeam.Runtime.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\VolumetricLightBeam.Samples.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\WasmDisassembler.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\websocket-sharp.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\YooAsset.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\YooAsset.RuntimeExtension.dll">
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="D:\UnityIL2CPPnx\1\__Generated.dll">
+		  <Private>False</Private>
+		</Reference>
+	</ItemGroup>
+
+
+</Project>
