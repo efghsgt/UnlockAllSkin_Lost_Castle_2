@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
-    <BaseOutputPath>D:\Recreation\Platform\steam\steamapps\common\Lost Castle 2\BepInEx\plugins</BaseOutputPath>
+    <BaseOutputPath>bin\</BaseOutputPath>
   </PropertyGroup>
 	<ItemGroup>
 		<Reference Include="D:\UnityIL2CPPnx\1\0Harmony.dll">
